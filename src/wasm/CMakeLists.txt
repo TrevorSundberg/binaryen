@@ -14,4 +14,4 @@ set(wasm_SOURCES
   wasm-validator.cpp
   ${wasm_HEADERS}
 )
-add_library(wasm OBJECT ${wasm_SOURCES})
+add_library(wasmx OBJECT ${wasm_SOURCES})
